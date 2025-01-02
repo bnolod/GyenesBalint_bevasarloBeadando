@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Név"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextEgysegar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Egységár"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextMennyiseg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mennyiség"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextMertekegyseg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mértékegység"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonHozzaadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hozzáadás" />
+
+    <Button
+        android:id="@+id/buttonMegtekintes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Termékek megtekintése" />
+
+</LinearLayout>
